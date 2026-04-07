@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arithmetic Operations</title>
+</head>
+<body>
+
+<script>
+let num1 = parseInt(prompt("Enter first number:"));
+let num2 = parseInt(prompt("Enter second number:"));
+
+document.write("First Number: " + num1 + "<br>");
+document.write("Second Number: " + num2 + "<br><br>");
+
+document.write("Sum = " + (num1 + num2) + "<br>");
+document.write("Difference = " + (num1 - num2) + "<br>");
+document.write("Product = " + (num1 * num2));
+</script>
+
+</body>
+</html>
